@@ -9,3 +9,17 @@ class Ball {
  }
 }
 
+function onKeyDown(e) {
+  
+}
+function onKeyUp(e) {
+  
+}
+
+
+window.addEventListener("keydown", onKeyDown);
+window.addEventListener("keyup", onKeyUp);
+
+
+
+
