@@ -15,22 +15,22 @@ window.addEventListener("keyup", onKeyUp);
 
 /////////FROM APDE CODE///////////
 
-float direction, x, y, speed, accel, startMillis, endMillis;
-float maxx, minx, turnSpeed = 0.066;
-float o, to, db;
-int screen, toScreen, difficulty, hard;
-float SoE, mousex = 0, bp = 0.8;
-float ra, rt, rf;
-final float fluid = 4, sp = -0.4, bp1 = 0.8, bp2 = 1.1;
-int fq = 128, fqT = 256, fqT1 = 256, fqS = 256;
-final int tailSize = 16, tailQ = 1, nball = 3;
-String title = "Waving";
-float[] xs, ys;
-Ball[] b;
-PFont font, fontT, fontT1, fontS;
-final boolean debug = false;
+var direction, x, y, speed, accel, startMillis, endMillis; //float
+var maxx, minx, turnSpeed = 0.066; //float
+var o, to, db; //float
+var screen, toScreen, difficulty, hard; //int
+var SoE, mousex = 0, bp = 0.8; //float
+var ra, rt, rf; //float
+const fluid = 4, sp = -0.4, bp1 = 0.8, bp2 = 1.1; //float
+var fq = 128, fqT = 256, fqT1 = 256, fqS = 256; //float
+const tailSize = 16, tailQ = 1, nball = 3; //int
+var title = "Waving"; //String
+var xs, ys; //float[]
+var b; //Ball[]
+//PFont font, fontT, fontT1, fontS;
+var debug = false; //boolean
 
-void setup() {
+function setup() {
   setupMultiTouch();
   SoE = min(displayWidth, displayHeight)/16;
   background(0);
@@ -50,7 +50,7 @@ void setup() {
   font = createFont("Roboto-Light.ttf", fq);
   textFont(font, fq);
 }
-void draw() {
+function draw() {
   if (frameCount%8==0) {
     //textFont(createFont("Roboto-Light.ttf", fq), fq);
   }
