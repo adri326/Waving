@@ -1,6 +1,6 @@
 # Waving
 
-![compile with APDE](https://img.shields.io/badge/compile%20with-APDE-a3c4d9.svg)
+![compile with APDE](https://img.shields.io/badge/compile%20with-APDE-a3c4d9.svg) ![language java](https://img.shields.io/badge/language-java-brightgreen.svg) ![language Javascript](https://img.shields.io/badge/language-Javascript-brightgreen.svg)
 
 
 
